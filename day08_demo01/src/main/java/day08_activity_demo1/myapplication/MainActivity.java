@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements BaseFragment.OnFr
 
     private void  initViewPager(){
 //        adapter
-    pList.add(HomeFragment.newInstance(null,null));
-    pList.add(FoodFragment.newInstance(null, null));
+      pList.add(HomeFragment.newInstance(null,null));
+      pList.add(FoodFragment.newInstance(null, null));
      adapter=new ContentPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(adapter);
     }
